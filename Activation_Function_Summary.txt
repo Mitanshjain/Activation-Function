@@ -1,0 +1,24 @@
+What is Activation Function?
+Activation Function are those mathematical Functions that capture non-linearity in our data.
+
+Some Commonly used Activation Function :-
+(1).Sigmoid Function(Logistic Function):- It maps the input to a value between 0 and 1.It is widely used in past but is now less popular due
+to some drawbacks such as vanishing gradients.
+
+(2).Hyperbolic tangent Function(tanh) :- It is similar to sigmoid function but it maps the input to a value between -1 to 1.It is used in 
+some cases, but it also suffer from vanishng gradients.
+
+(3).Rectified Linear Unit(ReLu) :- This function sets all negative values to zero and keep positive unchanged.It is the most popular 
+Activation function in deeplearning due to its simplicity and effectiveness in training deep neural networks.
+
+(4).Leaky ReLU:- This function is similar to ReLU but allows a small negative slope for negative input values. It helps mitigate
+the "dying ReLU" problem where some neurons can become permanently inactive during training.
+
+(5).Parametric ReLU (PReLU): PReLU is a generalization of ReLU that introduces a learnable parameter to determine the
+slope of negative input values. It offers more flexibility and can improve model performance.
+
+(6).Exponential Linear Unit (ELU): ELU is a variation of ReLU that allows negative values with a smooth exponential decay. It
+helps alleviate the dying ReLU problem and can produce more robust models.
+
+(7).Softmax: Softmax is commonly used in the output layer of a neural network for multi-class classification problems. It
+normalizes the output values to represent probabilities, ensuring that the sum of all probabilities is 1.
